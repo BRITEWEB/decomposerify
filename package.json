@@ -1,0 +1,40 @@
+{
+  "name": "decomposerify",
+  "version": "0.6.0",
+  "description": "A browserify transform to enable the easy use of composer packages in browserify client javascript projects. Inspired by https://github.com/eugeneware/debowerify.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/BRITEWEB/decomposerify"
+  },
+  "keywords": [
+    "composer",
+    "packages",
+    "component",
+    "components",
+    "browserify",
+    "transform"
+  ],
+  "authors": [
+    "BRITEWEB <agency@briteweb.com>",
+    "Alessandro Biavati <abiavati@gmail.com>"
+  ],
+  "license": "GPLv2",
+  "dependencies": {
+    "through": "~2.3.4",
+    "falafel": "~0.3.1"
+  },
+  "devDependencies": {
+    "domready": "~0.2.11",
+    "chai": "~1.7.2",
+    "mocha": "~1.12.0",
+    "browserify": "~2.26.0"
+  },
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  }
+}

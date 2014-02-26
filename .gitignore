@@ -1,0 +1,4 @@
+*.swp
+.DS_Store
+test/bundle.js
+node_modules/
